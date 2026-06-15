@@ -68,7 +68,7 @@ log "At $GIT_HASH from $GIT_REMOTE"
 # --- 2. Fetch fresh pricing from OpenRouter and merge ---
 log "Fetching fresh LLM pricing from OpenRouter..."
 cd "$REPO_DIR"
-python3 /app/fetch-data.py --repo-dir "$REPO_DIR" --commit 2>&1 | tee -a "$LOG_FILE"
+python3 "$REPO_DIR/docker/fetch-data.py" --repo-dir "$REPO_DIR" --commit 2>&1 | tee -a "$LOG_FILE"
 FETCH_EXIT=${PIPESTATUS[0]}
 if [ "$FETCH_EXIT" -ne 0 ]; then
     log "WARNING: fetch-data.py exited with code $FETCH_EXIT — continuing with existing data"

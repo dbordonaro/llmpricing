@@ -9,13 +9,22 @@ LOG_FILE="/var/log/llmpricing-update.log"
 # Ensure log file exists
 touch "$LOG_FILE"
 
+# Fetch-data and update scripts live in the git checkout at /app/repo/docker/
+FETCH_SCRIPT="/app/repo/docker/fetch-data.py"
+UPDATE_SCRIPT="/app/repo/docker/update.sh"
+
 # Run initial data fetch (first boot or restart)
 echo "[entrypoint] Running initial data update..."
-bash /app/update.sh
+if [ -f "$UPDATE_SCRIPT" ]; then
+    bash "$UPDATE_SCRIPT"
+else
+    echo "[entrypoint] WARNING: $UPDATE_SCRIPT not found — falling back to baked-in script"
+    bash /app/update.sh
+fi
 
 # Set up weekly cron: Sunday at 02:00 UTC
 echo "[entrypoint] Setting up weekly cron (Sunday 02:00 UTC)..."
-echo "0 2 * * 0 root bash /app/update.sh > /var/log/llmpricing-cron.log 2>&1" > /etc/crontabs/root
+echo "0 2 * * 0 root bash /app/repo/docker/update.sh > /var/log/llmpricing-cron.log 2>&1" > /etc/crontabs/root
 
 # Start cron daemon
 crond -b -l 2
