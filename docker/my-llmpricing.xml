@@ -18,7 +18,7 @@ The Docker image is built automatically by GitHub Actions and published to ghcr.
 
 Hosted at http://YOUR-UNRAID-IP:PORT after installation.
 
-CODE CHANGES (optional — requires fork & token):
+CODE CHANGES (optional — requires fork &amp; token):
 1. This repo is YOUR fork of sanand0/llmpricing.
 2. Set GITHUB_TOKEN, FORK_OWNER, GIT_USER_NAME, GIT_USER_EMAIL below.
 3. Dobby pushes edits directly to the fork — the container pulls them on the next update cycle (or immediately on restart).
