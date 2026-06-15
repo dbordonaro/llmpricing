@@ -21,12 +21,13 @@ RUN if [ -n "$GIT_USER_NAME" ]; then \
 # Create directories
 RUN mkdir -p /var/www/html /var/log/nginx /run/nginx /app /app/repo
 
-# Copy entrypoint, update script, and nginx config
+# Copy entrypoint, update script, fetch-data script, and nginx config
 COPY docker/entrypoint.sh /app/entrypoint.sh
 COPY docker/update.sh /app/update.sh
+COPY docker/fetch-data.py /app/fetch-data.py
 COPY docker/nginx.conf /etc/nginx/http.d/default.conf
 
-RUN chmod +x /app/entrypoint.sh /app/update.sh
+RUN chmod +x /app/entrypoint.sh /app/update.sh /app/fetch-data.py
 
 EXPOSE 80
 
