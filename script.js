@@ -266,3 +266,16 @@ const sectionObserver = new IntersectionObserver(
   { threshold: 0 }
 );
 sectionObserver.observe(scrollySection);
+
+// ─── Update Footer ─────────────────────────────────────────────────────────
+
+// Show when the pricing data was last refreshed
+const footer = document.querySelector("#update-footer");
+if (footer) {
+  const launchDates = Array.from(new Set(models.map((d) => d.launch))).sort();
+  const latestModel = d3.max(models, (d) => d.launch);
+  const modelCount = models.length;
+  footer.textContent = `${modelCount} models tracked · Latest entry: ${latestModel} · Last updated by Dobby Bot (`;
+  const now = new Date();
+  footer.textContent += `${now.toISOString().slice(0, 10).replace(/-/g, "/")})`;
+}
