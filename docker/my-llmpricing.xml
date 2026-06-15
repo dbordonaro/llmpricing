@@ -9,6 +9,19 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/dbordonaro/llmpricing</Project>
+  <Overview>LLM Pricing Mirror — Live chart tracking LLM intelligence (ELO) vs cost per million tokens.&#13;
+&#13;
+Auto-refreshes every Sunday at 02:00 UTC from GitHub, keeping ELO scores, pricing data, and narrative cards up to date.&#13;
+&#13;
+The Docker image is built automatically by GitHub Actions and published to ghcr.io. No manual rebuilds needed.&#13;
+&#13;
+Hosted at http://YOUR-UNRAID-IP:PORT after installation.&#13;
+&#13;
+CODE CHANGES (optional — requires fork &amp; token):&#13;
+1. This repo is YOUR fork of sanand0/llmpricing.&#13;
+2. Set GITHUB_TOKEN, FORK_OWNER, GIT_USER_NAME, GIT_USER_EMAIL below.&#13;
+3. Dobby pushes edits directly to the fork — the container pulls them on the next update cycle (or immediately on restart).&#13;
+  </Overview>
   <Category>Utilities:Tools</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL/>
