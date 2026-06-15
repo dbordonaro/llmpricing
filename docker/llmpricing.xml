@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>LLMPricing</Name>
+  <Repository>ghcr.io/dbordonaro/llmpricing:latest</Repository>
+  <Registry>https://github.com/dbordonaro/llmpricing</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/dbordonaro/llmpricing</Project>
+  <Overview>
+LLM Pricing Mirror — Live chart tracking LLM intelligence (ELO) vs cost per million tokens.
+
+Auto-refreshes every Sunday at 02:00 UTC from GitHub, keeping ELO scores, pricing data, and narrative cards up to date.
+
+The Docker image is built automatically by GitHub Actions and published to ghcr.io. No manual rebuilds needed.
+
+Hosted at http://YOUR-UNRAID-IP:PORT after installation.
+
+CODE CHANGES (optional — requires fork & token):
+1. This repo is YOUR fork of sanand0/llmpricing.
+2. Set GITHUB_TOKEN, FORK_OWNER, GIT_USER_NAME, GIT_USER_EMAIL below.
+3. Dobby pushes edits directly to the fork — the container pulls them on the next update cycle (or immediately on restart).
+  </Overview>
+  <Category>Utilities:Tools</Category>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/sanand0/llmpricing/master/favicon.ico</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1722806126</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requises/>
+  <Config Name="Web Port" Target="80" Default="8080" Mode="tcp" Description="Host port for the web interface. Default: 8080" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="Timezone" Target="TZ" Default="America/New_York" Mode="" Description="Container timezone" Type="Variable" Display="always" Required="false" Mask="false">America/New_York</Config>
+  <Config Name="GitHub Token" Target="GITHUB_TOKEN" Default="" Mode="" Description="Classic PAT with repo scope. Set this + FORK_OWNER to enable push access for code changes." Type="Variable" Display="always" Required="false" Mask="true"/>
+  <Config Name="Fork Owner" Target="FORK_OWNER" Default="" Mode="" Description="Your GitHub username (the fork owner). Only needed if you want Dobby to push code changes." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Git User Name" Target="GIT_USER_NAME" Default="" Mode="" Description="Name for git commits (e.g. Dobby Bot)" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Git User Email" Target="GIT_USER_EMAIL" Default="" Mode="" Description="Email for git commits" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Source Code Volume" Target="/app/repo" Default="" Mode="rw" Description="Persistent volume so code changes survive container rebuilds. Map to /mnt/user/appdata/llmpricing/repo" Type="Path" Display="always" Required="false" Mask="false"/>
+</Container>
