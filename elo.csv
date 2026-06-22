@@ -867,8 +867,9 @@ undi95-remm-slerp-l2-13b,,,,0.4,2023-07,,https://openrouter.ai/undi95/remm-slerp
 gryphe-mythomax-l2-13b,,,,0.1,2023-07,,https://openrouter.ai/gryphe/mythomax-l2-13b
 gpt-3.5-turbo,,,,0.5,2023-05,,https://openrouter.ai/openai/gpt-3.5-turbo
 glm-5.2 (max),1471,,,,,,
-z-ai-glm-5.2,,,,1.2,2026-06,,https://openrouter.ai/z-ai/glm-5.2
+z-ai-glm-5.2,,,,1.0,2026-06,,https://openrouter.ai/z-ai/glm-5.2
 gemini-3.1-flash-image,,,,0.5,2026-06,,https://openrouter.ai/google/gemini-3.1-flash-image
 gemini-3-pro-image,,,,2.0,2026-06,,https://openrouter.ai/google/gemini-3-pro-image
 poolside-laguna-xs.2,,,,0.1,2026-04,,https://openrouter.ai/poolside/laguna-xs.2
 poolside-laguna-m.1,,,,0.2,2026-04,,https://openrouter.ai/poolside/laguna-m.1
+nex-agi-nex-n2-pro,,,,0.5,2026-06,,https://openrouter.ai/nex-agi/nex-n2-pro
