@@ -681,7 +681,7 @@ claude-opus-4-8-thinking,1483,,,,,,
 mimo-v2-omni,1432,,,,,,
 mistral-medium-3.5,1426,,,,,,
 nvidia-nemotron-3-ultra-550b-a55b-nvfp4,1416,,,,,,
-moonshotai-kimi-k2.7-code,,,,0.6,2026-06,,https://openrouter.ai/moonshotai/kimi-k2.7-code
+moonshotai-kimi-k2.7-code,,,,0.7,2026-06,,https://openrouter.ai/moonshotai/kimi-k2.7-code
 ~anthropic-claude-fable-latest,,,,10.0,2026-06,,https://openrouter.ai/~anthropic/claude-fable-latest
 nvidia-nemotron-3-ultra-550b-a55b,,,,0.5,2026-06,,https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b
 qwen3.7-plus,,,,0.3,2026-06,,https://openrouter.ai/qwen/qwen3.7-plus
@@ -872,4 +872,5 @@ gemini-3.1-flash-image,,,,0.5,2026-06,,https://openrouter.ai/google/gemini-3.1-f
 gemini-3-pro-image,,,,2.0,2026-06,,https://openrouter.ai/google/gemini-3-pro-image
 poolside-laguna-xs.2,,,,0.1,2026-04,,https://openrouter.ai/poolside/laguna-xs.2
 poolside-laguna-m.1,,,,0.2,2026-04,,https://openrouter.ai/poolside/laguna-m.1
-nex-agi-nex-n2-pro,,,,0.5,2026-06,,https://openrouter.ai/nex-agi/nex-n2-pro
+nex-agi-nex-n2-pro,,,,0.2,2026-06,,https://openrouter.ai/nex-agi/nex-n2-pro
+z-ai-glm-5v-turbo,,,,1.2,2026-04,,https://openrouter.ai/z-ai/glm-5v-turbo
