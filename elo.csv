@@ -700,7 +700,7 @@ ibm-granite-granite-4.1-8b,,,,0.0,2026-04,,https://openrouter.ai/ibm-granite/gra
 ~anthropic-claude-haiku-latest,,,,1.0,2026-04,,https://openrouter.ai/~anthropic/claude-haiku-latest
 ~openai-gpt-mini-latest,,,,0.8,2026-04,,https://openrouter.ai/~openai/gpt-mini-latest
 ~google-gemini-pro-latest,,,,2.0,2026-04,,https://openrouter.ai/~google/gemini-pro-latest
-~moonshotai-kimi-latest,,,,0.7,2026-04,,https://openrouter.ai/~moonshotai/kimi-latest
+~moonshotai-kimi-latest,,,,0.6,2026-04,,https://openrouter.ai/~moonshotai/kimi-latest
 ~google-gemini-flash-latest,,,,1.5,2026-04,,https://openrouter.ai/~google/gemini-flash-latest
 ~anthropic-claude-sonnet-latest,,,,3.0,2026-04,,https://openrouter.ai/~anthropic/claude-sonnet-latest
 ~openai-gpt-latest,,,,5.0,2026-04,,https://openrouter.ai/~openai/gpt-latest
@@ -716,7 +716,7 @@ xiaomi-mimo-v2.5,,,,0.1,2026-04,,https://openrouter.ai/xiaomi/mimo-v2.5
 gpt-5.4-image-2,,,,8.0,2026-04,,https://openrouter.ai/openai/gpt-5.4-image-2
 inclusionai-ling-2.6-flash,,,,0.0,2026-04,,https://openrouter.ai/inclusionai/ling-2.6-flash
 ~anthropic-claude-opus-latest,,,,5.0,2026-04,,https://openrouter.ai/~anthropic/claude-opus-latest
-moonshotai-kimi-k2.6,,,,0.7,2026-04,,https://openrouter.ai/moonshotai/kimi-k2.6
+moonshotai-kimi-k2.6,,,,0.6,2026-04,,https://openrouter.ai/moonshotai/kimi-k2.6
 claude-opus-4.7,,,,5.0,2026-04,,https://openrouter.ai/anthropic/claude-opus-4.7
 claude-opus-4.6-fast,,,,30.0,2026-04,,https://openrouter.ai/anthropic/claude-opus-4.6-fast
 z-ai-glm-5.1,,,,1.0,2026-04,,https://openrouter.ai/z-ai/glm-5.1
