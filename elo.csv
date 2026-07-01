@@ -604,7 +604,7 @@ gemini-2-5-pro-preview-05-06,,,,1.25,2026-06,,https://openrouter.ai/google/gemin
 virtuoso-large,,,,0.75,2026-06,,https://openrouter.ai/arcee-ai/virtuoso-large
 coder-large,,,,0.5,2026-06,,https://openrouter.ai/arcee-ai/coder-large
 llama-guard-4-12b,,,,0.18,2026-06,,https://openrouter.ai/meta-llama/llama-guard-4-12b
-qwen3-8b,,,,0.0,2026-06,,https://openrouter.ai/qwen/qwen3-8b
+qwen3-8b,,,,0.1,2026-06,,https://openrouter.ai/qwen/qwen3-8b
 qwen3-14b,,,,0.1,2026-06,,https://openrouter.ai/qwen/qwen3-14b
 o4-mini-high,,,,1.1,2026-06,,https://openrouter.ai/openai/o4-mini-high
 o3,,,,2,2026-06,,https://openrouter.ai/openai/o3
