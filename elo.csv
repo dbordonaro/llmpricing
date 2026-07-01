@@ -702,7 +702,7 @@ ibm-granite-granite-4.1-8b,,,,0.0,2026-04,,https://openrouter.ai/ibm-granite/gra
 ~google-gemini-pro-latest,,,,2.0,2026-04,,https://openrouter.ai/~google/gemini-pro-latest
 ~moonshotai-kimi-latest,,,,0.6,2026-04,,https://openrouter.ai/~moonshotai/kimi-latest
 ~google-gemini-flash-latest,,,,1.5,2026-04,,https://openrouter.ai/~google/gemini-flash-latest
-~anthropic-claude-sonnet-latest,,,,3.0,2026-04,,https://openrouter.ai/~anthropic/claude-sonnet-latest
+~anthropic-claude-sonnet-latest,,,,2.0,2026-04,,https://openrouter.ai/~anthropic/claude-sonnet-latest
 ~openai-gpt-latest,,,,5.0,2026-04,,https://openrouter.ai/~openai/gpt-latest
 qwen3.5-plus-20260420,,,,0.3,2026-04,,https://openrouter.ai/qwen/qwen3.5-plus-20260420
 qwen3.6-flash,,,,0.2,2026-04,,https://openrouter.ai/qwen/qwen3.6-flash
@@ -875,3 +875,5 @@ poolside-laguna-m.1,,,,0.2,2026-04,,https://openrouter.ai/poolside/laguna-m.1
 nex-agi-nex-n2-pro,,,,0.2,2026-06,,https://openrouter.ai/nex-agi/nex-n2-pro
 z-ai-glm-5v-turbo,,,,1.2,2026-04,,https://openrouter.ai/z-ai/glm-5v-turbo
 sakana-fugu-ultra,,,,5.0,2026-06,,https://openrouter.ai/sakana/fugu-ultra
+claude-sonnet-5,,,,2.0,2026-06,,https://openrouter.ai/anthropic/claude-sonnet-5
+gemini-3.1-flash-lite-image,,,,0.2,2026-06,,https://openrouter.ai/google/gemini-3.1-flash-lite-image
