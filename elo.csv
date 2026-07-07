@@ -844,7 +844,7 @@ qwen-2.5-7b-instruct,,,,0.0,2024-10,,https://openrouter.ai/qwen/qwen-2.5-7b-inst
 inflection-inflection-3-productivity,,,,2.5,2024-10,,https://openrouter.ai/inflection/inflection-3-productivity
 inflection-inflection-3-pi,,,,2.5,2024-10,,https://openrouter.ai/inflection/inflection-3-pi
 thedrummer-rocinante-12b,,,,0.2,2024-09,,https://openrouter.ai/thedrummer/rocinante-12b
-llama-llama-3.2-3b-instruct,,,,0.1,2024-09,,https://openrouter.ai/meta-llama/llama-3.2-3b-instruct
+llama-llama-3.2-3b-instruct,,,,0.0,2024-09,,https://openrouter.ai/meta-llama/llama-3.2-3b-instruct
 llama-llama-3.2-1b-instruct,,,,0.0,2024-09,,https://openrouter.ai/meta-llama/llama-3.2-1b-instruct
 llama-llama-3.2-11b-vision-instruct,,,,0.3,2024-09,,https://openrouter.ai/meta-llama/llama-3.2-11b-vision-instruct
 qwen-2.5-72b-instruct,,,,0.4,2024-09,,https://openrouter.ai/qwen/qwen-2.5-72b-instruct
@@ -879,3 +879,5 @@ claude-sonnet-5,,,,2.0,2026-06,,https://openrouter.ai/anthropic/claude-sonnet-5
 gemini-3.1-flash-lite-image,,,,0.2,2026-06,,https://openrouter.ai/google/gemini-3.1-flash-lite-image
 claude-sonnet-5-thinking,1464,,,,,,
 poolside-laguna-xs-2.1,,,,0.1,2026-07,,https://openrouter.ai/poolside/laguna-xs-2.1
+tencent-hy3,,,,0.2,2026-07,,https://openrouter.ai/tencent/hy3
+nex-agi-nex-n2-mini,,,,0.0,2026-06,,https://openrouter.ai/nex-agi/nex-n2-mini
