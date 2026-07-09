@@ -879,8 +879,10 @@ claude-sonnet-5,,,,2.0,2026-06,,https://openrouter.ai/anthropic/claude-sonnet-5
 gemini-3.1-flash-lite-image,,,,0.2,2026-06,,https://openrouter.ai/google/gemini-3.1-flash-lite-image
 claude-sonnet-5-thinking,1464,,,,,,
 poolside-laguna-xs-2.1,,,,0.1,2026-07,,https://openrouter.ai/poolside/laguna-xs-2.1
-tencent-hy3,,,,0.2,2026-07,,https://openrouter.ai/tencent/hy3
+tencent-hy3,,,,0.1,2026-07,,https://openrouter.ai/tencent/hy3
 nex-agi-nex-n2-mini,,,,0.0,2026-06,,https://openrouter.ai/nex-agi/nex-n2-mini
 claude-sonnet-5-high,1464,,,,,,
 aion-labs-aion-3.0-mini,,,,0.7,2026-07,,https://openrouter.ai/aion-labs/aion-3.0-mini
 aion-labs-aion-3.0,,,,3.0,2026-07,,https://openrouter.ai/aion-labs/aion-3.0
+x-ai-grok-4.5,,,,2.0,2026-07,,https://openrouter.ai/x-ai/grok-4.5
+~x-ai-grok-latest,,,,2.0,2026-07,,https://openrouter.ai/~x-ai/grok-latest
