@@ -867,7 +867,7 @@ undi95-remm-slerp-l2-13b,,,,0.4,2023-07,,https://openrouter.ai/undi95/remm-slerp
 gryphe-mythomax-l2-13b,,,,0.1,2023-07,,https://openrouter.ai/gryphe/mythomax-l2-13b
 gpt-3.5-turbo,,,,0.5,2023-05,,https://openrouter.ai/openai/gpt-3.5-turbo
 glm-5.2 (max),1469,,,,,,
-z-ai-glm-5.2,,,,0.9,2026-06,,https://openrouter.ai/z-ai/glm-5.2
+z-ai-glm-5.2,,,,0.8,2026-06,,https://openrouter.ai/z-ai/glm-5.2
 gemini-3.1-flash-image,,,,0.5,2026-06,,https://openrouter.ai/google/gemini-3.1-flash-image
 gemini-3-pro-image,,,,2.0,2026-06,,https://openrouter.ai/google/gemini-3-pro-image
 poolside-laguna-xs.2,,,,0.1,2026-04,,https://openrouter.ai/poolside/laguna-xs.2
@@ -886,3 +886,10 @@ aion-labs-aion-3.0-mini,,,,0.7,2026-07,,https://openrouter.ai/aion-labs/aion-3.0
 aion-labs-aion-3.0,,,,3.0,2026-07,,https://openrouter.ai/aion-labs/aion-3.0
 x-ai-grok-4.5,,,,2.0,2026-07,,https://openrouter.ai/x-ai/grok-4.5
 ~x-ai-grok-latest,,,,2.0,2026-07,,https://openrouter.ai/~x-ai/grok-latest
+gpt-5.6-luna-pro,,,,1.0,2026-07,,https://openrouter.ai/openai/gpt-5.6-luna-pro
+gpt-5.6-luna,,,,1.0,2026-07,,https://openrouter.ai/openai/gpt-5.6-luna
+gpt-5.6-terra-pro,,,,2.5,2026-07,,https://openrouter.ai/openai/gpt-5.6-terra-pro
+gpt-5.6-terra,,,,2.5,2026-07,,https://openrouter.ai/openai/gpt-5.6-terra
+gpt-5.6-sol-pro,,,,5.0,2026-07,,https://openrouter.ai/openai/gpt-5.6-sol-pro
+gpt-5.6-sol,,,,5.0,2026-07,,https://openrouter.ai/openai/gpt-5.6-sol
+cognitivecomputations-dolphin-mistral-24b-venice-edition,,,,0.2,2025-07,,https://openrouter.ai/cognitivecomputations/dolphin-mistral-24b-venice-edition
