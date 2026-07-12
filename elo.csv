@@ -824,7 +824,7 @@ perplexity-sonar-deep-research,,,,2.0,2025-03,,https://openrouter.ai/perplexity/
 aion-labs-aion-1.0,,,,4.0,2025-02,,https://openrouter.ai/aion-labs/aion-1.0
 aion-labs-aion-1.0-mini,,,,0.7,2025-02,,https://openrouter.ai/aion-labs/aion-1.0-mini
 aion-labs-aion-rp-llama-3.1-8b,,,,0.8,2025-02,,https://openrouter.ai/aion-labs/aion-rp-llama-3.1-8b
-qwen2.5-vl-72b-instruct,,,,0.8,2025-02,,https://openrouter.ai/qwen/qwen2.5-vl-72b-instruct
+qwen2.5-vl-72b-instruct,,,,0.2,2025-02,,https://openrouter.ai/qwen/qwen2.5-vl-72b-instruct
 perplexity-sonar,,,,1.0,2025-01,,https://openrouter.ai/perplexity/sonar
 minimax-minimax-01,,,,0.2,2025-01,,https://openrouter.ai/minimax/minimax-01
 microsoft-phi-4,,,,0.1,2025-01,,https://openrouter.ai/microsoft/phi-4
