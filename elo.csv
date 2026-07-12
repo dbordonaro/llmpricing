@@ -813,7 +813,7 @@ openai-o3,,,,2.0,2025-04,,https://openrouter.ai/openai/o3
 gpt-4.1,,,,2.0,2025-04,,https://openrouter.ai/openai/gpt-4.1
 gpt-4.1-mini,,,,0.4,2025-04,,https://openrouter.ai/openai/gpt-4.1-mini
 gpt-4.1-nano,,,,0.1,2025-04,,https://openrouter.ai/openai/gpt-4.1-nano
-llama-llama-4-maverick,,,,0.1,2025-04,,https://openrouter.ai/meta-llama/llama-4-maverick
+llama-llama-4-maverick,,,,0.2,2025-04,,https://openrouter.ai/meta-llama/llama-4-maverick
 llama-llama-4-scout,,,,0.1,2025-04,,https://openrouter.ai/meta-llama/llama-4-scout
 mistral-small-3.1-24b-instruct,,,,0.4,2025-03,,https://openrouter.ai/mistralai/mistral-small-3.1-24b-instruct
 rekaai-reka-flash-3,,,,0.1,2025-03,,https://openrouter.ai/rekaai/reka-flash-3
