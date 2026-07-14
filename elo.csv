@@ -899,3 +899,5 @@ gemini-3.5-flash-high,1476,,,,,,
 gemini-3.5-flash-medium,1476,,,,,,
 grok-4.5,1469,,,,,,
 glm-5v-turbo,1440,,,,,,
+kwaipilot-kat-coder-air-v2.5,,,,0.1,2026-07,,https://openrouter.ai/kwaipilot/kat-coder-air-v2.5
+kwaipilot-kat-coder-pro-v2.5,,,,0.7,2026-07,,https://openrouter.ai/kwaipilot/kat-coder-pro-v2.5
